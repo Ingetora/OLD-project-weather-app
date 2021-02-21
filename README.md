@@ -54,4 +54,4 @@ The major issue was to arrange multiple items inside of the weather app widget. 
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://youthful-knuth-c42cf1.netlify.app/
