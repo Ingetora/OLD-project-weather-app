@@ -14,7 +14,8 @@
 
 <body id="page-body" class="page">
   <section id="weather-widget" class="weather-widget">
-    <!--Today weather-->
+
+    <!--Todays weather-->
     <section class="today" id="today">
       <div id="city" class="city-title"></div><br>
 
@@ -33,22 +34,27 @@
       <div id="sundata" class="sundata"></div>
     </section>
 
-    <h4 class="f-feels">at noon feels</h4>
+    <div class="five-day">
+    <h4 class="f-feels">At noon it will feel like:</h4>
 
     <section class="forecast">
       <!-- Table for 5 days forecast-->
       <table id="dynamic" class="forecast-table">
       </table>
     </section>
+    </div>
 
-    <h4 class="f-feels">actual temperature at noon</h4>
+    <div class="graph-content">
+    <h4 class="f-feels">Actual temperature at noon</h4>
     <section class="chart">
       <!--Line graph-->
       <canvas id="line-chart" width="300" height="200"></canvas>
     </section>
+    </div>
 
     <!--City selector: dropdown menu-->
-    <h5 class="select-box">select city</h5>
+    <div class="drop-down-menu">
+    <h5 class="select-box">Select city</h5>
 
     <select id="selectCity" class="select-city">
       <option value="Stockholm,Sweden">Stockholm</option>
@@ -60,6 +66,7 @@
       <option value="Paris,France">Paris</option>
       <option value="Tokyo,Japan">Tokyo</option>
     </select>
+    </div>
   </section>
 
   <script src="./app.js"></script>
